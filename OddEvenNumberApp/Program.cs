@@ -19,6 +19,7 @@ class Program
     static void PrintNumber(string title, IEnumerable<int> numbers)
     {
         Console.WriteLine($"\n{title}");
+        Console.WriteLine("Hi mamoun salousi");
         foreach (var num in numbers)
         {
             Console.WriteLine($"{num} is {(num % 2 == 0 ? "Even" : "Odd")}");
