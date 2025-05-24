@@ -25,4 +25,8 @@ class Program
             Console.WriteLine($"{num} is {(num % 2 == 0 ? "Even" : "Odd")}");
         }
     }
+    static int Add(int x,int y)
+    {
+        return x + y;
+    }
 }
