@@ -29,4 +29,6 @@ class Program
     {
         return x + y;
     }
+    static int Sup(int x,int y)
+        { return x - y; }
 }
